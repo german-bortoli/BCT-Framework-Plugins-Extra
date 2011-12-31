@@ -1,0 +1,13 @@
+--- htaccess_dist	2010-05-19 18:56:00.000000000 +0100
++++ /tmp/htaccess_dist	2010-05-19 18:56:58.000000000 +0100
+@@ -15,7 +15,8 @@
+ RewriteRule ^objects\/(.*)$ _objects/object_handler.php?mode=objects&query=$1 [L,QSA]
+ 
+ # These rules must be last
++RewriteCond %{REQUEST_URI} !/plugins/openid/return.php(.*)$
+ RewriteCond %{REQUEST_URI} !/_(.*)$  
+ RewriteRule ^(.*)$ _pages/page_handler.php?page=$1 [QSA]
+ 
+-</IfModule>
+\ No newline at end of file
++</IfModule>

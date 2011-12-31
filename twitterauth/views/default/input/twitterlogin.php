@@ -1,0 +1,1 @@
+<a href="<?php echo $CONFIG->wwwroot; ?>twitter/login/"><img src="<?php echo $CONFIG->staticroot; ?>plugins/twitterauth/gfx/sign-in-with-twitter-d.png" border="0" /></a>

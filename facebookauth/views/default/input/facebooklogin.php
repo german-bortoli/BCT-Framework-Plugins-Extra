@@ -1,0 +1,1 @@
+<a href="<?php echo $CONFIG->wwwroot; ?>facebook/login/"><img src="<?php echo $CONFIG->staticroot; ?>plugins/facebookauth/gfx/loginbutton.png" border="0" /></a>
